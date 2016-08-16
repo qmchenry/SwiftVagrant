@@ -10,7 +10,7 @@ Using Vagrant (which is significantly cool) and VirtualBox
 ## To use:
 
 * Launch VirtualBox from Applications
-* From a terminal in this directory type  `vagrant up`
+* From a terminal in the directory type  `vagrant up`
 * Sit back, enjoy a lovely beverage
 * When installed, connect to the instance with `vagrant ssh`
 * When finished with work, use `vagrant halt` to turn off the instance
@@ -20,3 +20,4 @@ Using Vagrant (which is significantly cool) and VirtualBox
 * Swift is installed in a symlinked directory called swift/
 * The PATH environment var is setup to search the swift bin dir
 * Test with `swift --version`
+* The repository's root directory is mounted read-write as /vagrant
